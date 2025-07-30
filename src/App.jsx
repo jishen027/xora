@@ -1,8 +1,10 @@
+import Header from "./assets/sections/Header";
+
 function App() {
   return (
-    <>
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <main className="overflow-hidden">
+      <Header></Header>
+    </main>
   );
 }
 
